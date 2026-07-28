@@ -1,1 +1,11 @@
-
+{
+  "name": "svakom-bridge",
+  "type": "module",
+  "scripts": { 
+    "start": "node bridge/index.js" 
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "ws": "^8.0.0"
+  }
+}
